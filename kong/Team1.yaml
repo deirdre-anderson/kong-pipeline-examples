@@ -8,10 +8,10 @@ services:
   port: 80
   protocol: http
   read_timeout: 60000
-  retries: 5
+  retries: 50
   write_timeout: 60000
   routes:
-  - id: a10a7919-9c63-46b2-8ab6-0d153e897655
+  - id: a10a7919-9c63-46b2-8ab6-0d153e897656
     paths:
     - /team1
     path_handling: v0
